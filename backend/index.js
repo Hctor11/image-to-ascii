@@ -19,7 +19,7 @@ function pixelToAscii(pixel) {
 
 function imageToAscii(buffer) {
   return sharp(buffer)
-    .resize({ width: 100 }) // Ajustar el ancho de la salida ASCII
+    .resize({ width: 100 }) 
     .grayscale()
     .raw()
     .toBuffer()

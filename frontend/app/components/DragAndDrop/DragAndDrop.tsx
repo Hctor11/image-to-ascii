@@ -99,7 +99,7 @@ const DragAndDrop = ({ onFileSelect }) => {
         <p>Processing your image...</p>
       ) : (
         asciiArt && (
-          <pre className="ascii-art mt-4 p-4 border rounded bg-gray-100 overflow-auto">
+          <pre className="ascii-art mt-4 p-4 leading-none border rounded bg-gray-100 overflow-auto">
             {asciiArt}
           </pre>
         )
