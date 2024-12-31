@@ -22,12 +22,6 @@ This project is a web-based application that allows users to upload an image and
 
 ![alt text](image.png)
 
-## How It Works
-1. The user uploads an image via drag-and-drop or file selection.
-2. The frontend sends the image to the backend using a POST request.
-3. The backend processes the image using the Jimp library and generates ASCII art.
-4. The generated ASCII art is sent back to the frontend and displayed to the user.
-
 ## Setup Instructions
 
 ### Prerequisites
